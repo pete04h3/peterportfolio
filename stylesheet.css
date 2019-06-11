@@ -224,6 +224,10 @@ nav ul li {
 
     }
 
+    #overlay {
+        margin: -32px;
+    }
+
     header .close-btn {
         width: 30px;
         float: right;
@@ -265,7 +269,8 @@ nav ul li {
         justify-content: center;
         flex-direction: row;
         position: relative;
-        top: -20vw;
+        top: -12vw;
+        display: none;
 
 
 
@@ -274,10 +279,9 @@ nav ul li {
 
     #temaer p {
         font-family: 'Cabin', sans-serif;
-        font-size: 1.5rem;
+        font-size: 3rem;
         text-align: center;
         color: black;
-        margin: 4vw;
 
 
     }
@@ -294,6 +298,23 @@ nav ul li {
         background-size: cover;
         background-repeat: no-repeat;
 
+    }
+
+    #overlay {
+        margin: -32px;
+    }
+
+    nav {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.85);
+        padding: 2rem;
+        width: calc(100% - 4rem);
+        height: calc(110vh - 4rem);
+        display: none;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: right;
+        transform-origin: right;
     }
 
     nav ul p {
@@ -320,23 +341,26 @@ nav ul li {
     #temaer {
 
         display: flex;
-        flex-grow: 1;
-        justify-content: center;
-        flex-direction: row;
-        position: relative;
-        top: -15vw;
-
-
-
+        height: 0.5vw;
+        align-items: center;
 
     }
 
+
     #temaer p {
         font-family: 'Cabin', sans-serif;
-        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-size: 2rem;
         text-align: center;
         color: black;
-        margin: 6vw;
+        position: relative;
+        width: 40vw;
+        justify-content: space-around;
+        flex-direction: row;
+
+
+
+
 
 
     }
@@ -448,8 +472,9 @@ nav ul li {
 
     #temaer {
         display: flex;
-        flex-grow: 1;
-        justify-content: space-between;
+        width: 80vw;
+        top: -50vw;
+        left: 5vw;
 
 
 
@@ -457,11 +482,16 @@ nav ul li {
 
     #temaer p {
         font-family: 'Cabin', sans-serif;
-        font-size: 3rem;
+        text-transform: uppercase;
+        font-size: 2rem;
         text-align: center;
         color: black;
         position: relative;
-        top: 6vw;
+        width: 10vw;
+        justify-content: space-between;
+
+
+
 
 
 
