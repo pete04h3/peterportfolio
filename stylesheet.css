@@ -498,7 +498,9 @@ nav ul li {
 
     footer {
         position: relative;
-        height: 15vw;
+        background-color: antiquewhite;
+        height: 10vw;
+
 
 
 
@@ -506,15 +508,38 @@ nav ul li {
 
     footer p {
         color: black;
-        height: 1vw;
-        width: 60vw;
         position: relative;
-        align-self: center;
-        left: 20vw;
-        top: 90vw;
         justify-content: center;
         font-family: "cabin", sans-serif;
-        font-size: 1.2rem;
+        font-size: 0.6rem;
+        text-align: center;
+        top: -1vw;
+        right: 34vw;
+
+    }
+
+    .footerlogo {
+        color: black;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        top: 4vw;
+        left: 0.9vw;
+
+    }
+
+    .designbypetertxt {
+        color: black;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        top: -7vw;
+        left: 69vw;
+        width: 31vw;
 
     }
 
@@ -565,8 +590,11 @@ nav ul li {
         justify-content: center;
         flex-direction: row;
         position: relative;
-        top: -12vw;
-        display: none;
+        top: 40vw;
+        height: 100vw;
+        padding: 0;
+
+
 
 
 
@@ -575,13 +603,56 @@ nav ul li {
 
     #temaer p {
         font-family: 'Cabin', sans-serif;
-        font-size: 3rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: uppercase;
         text-align: center;
         color: black;
-        display: none;
-
-
+        position: relative;
+        top: 13vw;
+        left: 1vw;
     }
+
+    .tema1web {
+        border: 2px solid turquoise;
+        border-radius: 30px;
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+        top: 5vw;
+        right: 4vw;
+    }
+
+    .tema2animation {
+        border: 2px solid turquoise;
+        border-radius: 30px;
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+        top: 10vw;
+        left: -4vw;
+    }
+
+    .tema3content {
+        border: 2px solid turquoise;
+        border-radius: 30px;
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+        top: 5vw;
+        right: -5vw;
+    }
+
+    .tema4ux {
+        border: 2px solid turquoise;
+        border-radius: 30px;
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+        top: 10vw;
+        right: -5vw;
+    }
+
 
 
 
