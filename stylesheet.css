@@ -39,13 +39,6 @@ section h1 {
     color: aliceblue;
 }
 
-section h1::before {
-    content: 'portfolio';
-    color: aliceblue;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    display: block;
-}
 
 #splash {
     background-image: url(IMG_1526.jpg);
@@ -222,43 +215,238 @@ nav ul li {
         background-image: url(IMG_1526.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        height: 20vw;
+
+
 
 
     }
 
-    section h1 {
+    body {
+        background-color: rgba(169, 169, 169, 0);
+    }
+
+    h1 {
         font-size: 3rem;
-        margin: 8rem auto;
-        width: 100%;
+        margin: 3rem;
+        width: 80%;
+        color: black;
+        position: absolute;
+        text-align: center;
+        top: 70vw;
+        left: -3vw;
+
+
+
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin: 3rem;
+        width: 10%;
         text-transform: uppercase;
-        color: aliceblue;
-
-
+        color: turquoise;
+        position: absolute;
+        text-align: center;
+        top: 70vw;
+        left: 61vw;
     }
 
-    section h1::before {
-        content: 'portfolio';
-        color: aliceblue;
-        border-top: 6px solid black;
-        border-bottom: 6px solid black;
-        display: block;
+    h3 {
+        font-size: 5rem;
+        margin: 3rem;
+        width: 10%;
+        height: 10%;
+        text-transform: uppercase;
+        color: turquoise;
+        position: absolute;
+        text-align: center;
+        top: 60vw;
+        left: 1vw;
+        opacity: 0.7;
+        font-family: cursive;
+    }
+
+    .ommigtxt p {
         position: relative;
+        top: 20vw;
+        text-align: center;
 
     }
 
-    h1::before {
-        cursor: pointer;
+    .cvtxt {
+        color: black;
+        position: relative;
+        top: 20vw;
+        left: 10vw;
+        text-align: center;
     }
+
+    .cvkolon {
+        color: turquoise;
+        position: relative;
+        font-family: "cabin", sans-serif;
+        top: -9vw;
+        left: 25vw;
+        font-size: 3rem;
+    }
+
+    .tidsbox {
+
+        background: turquoise;
+        color: #000000;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: .1px;
+        /* position */
+        display: inline-block;
+        position: relative;
+        left: 19vw;
+        top: -18vw;
+        margin-right: .65em;
+
+    }
+
+    .tidsbox:after {
+        content: "";
+        position: absolute;
+        top: -2.5vw;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: turquoise;
+        /* the opposite of the pointing direction */
+        border-top-width: .6rem;
+        border-right-width: .6rem;
+        border-bottom-width: .6rem;
+        border-left-width: .6rem;
+        border-style: solid;
+    }
+
+    .tidsbox2 {
+
+        background: turquoise;
+        color: #000000;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: .1px;
+        /* position */
+        display: inline-block;
+        position: relative;
+        left: -9.5vw;
+        top: -9vw;
+        margin-right: .65em;
+
+    }
+
+    .tidsbox2:after {
+        content: "";
+        position: absolute;
+        top: -2.5vw;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: turquoise;
+        /* the opposite of the pointing direction */
+        border-top-width: .6rem;
+        border-right-width: .6rem;
+        border-bottom-width: .6rem;
+        border-left-width: .6rem;
+        border-style: solid;
+    }
+
+    .tidsbox3 {
+
+        background: turquoise;
+        color: #000000;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: .1px;
+        /* position */
+        display: inline-block;
+        position: relative;
+        left: -38vw;
+        margin-right: .65em;
+
+    }
+
+    .tidsbox3:after {
+        content: "";
+        position: absolute;
+        top: -2.5vw;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: turquoise;
+        /* the opposite of the pointing direction */
+        border-top-width: .6rem;
+        border-right-width: .6rem;
+        border-bottom-width: .6rem;
+        border-left-width: .6rem;
+        border-style: solid;
+    }
+
+    .tidsbox4 {
+
+        background: turquoise;
+        color: #000000;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: .1px;
+        /* position */
+        display: inline-block;
+        position: relative;
+        left: 19vw;
+        top: 4vw;
+        margin-right: .65em;
+
+    }
+
+    .tidsbox4:after {
+        content: "";
+        position: absolute;
+        top: -2.5vw;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: turquoise;
+        /* the opposite of the pointing direction */
+        border-top-width: .6rem;
+        border-right-width: .6rem;
+        border-bottom-width: .6rem;
+        border-left-width: .6rem;
+        border-style: solid;
+    }
+
+    .portfoliooverskrift {
+        font-size: 3rem;
+        margin: 3rem;
+        width: 80%;
+        color: black;
+        position: absolute;
+        text-align: center;
+        top: 170vw;
+        left: -3vw;
+
+
+    }
+
+
 
     .peterpanikbillede {
-        width: 20vw;
-        height: 20vw;
-        position: absolute;
-        border-radius: 100px;
-        top: 0vw;
-        left: 8vw;
-        opacity: 0.8;
-
+        display: none;
     }
 
     .slider__contents {
@@ -309,7 +497,6 @@ nav ul li {
     }
 
     footer {
-        background-color: rgba(16, 195, 181, 0.54);
         position: relative;
         height: 15vw;
 
@@ -318,13 +505,13 @@ nav ul li {
     }
 
     footer p {
-        color: white;
+        color: black;
         height: 1vw;
         width: 60vw;
         position: relative;
         align-self: center;
         left: 20vw;
-        top: 5vw;
+        top: 90vw;
         justify-content: center;
         font-family: "cabin", sans-serif;
         font-size: 1.2rem;
@@ -334,6 +521,7 @@ nav ul li {
 
     #overlay {
         margin: -32px;
+        z-index: 2;
     }
 
     header .close-btn {
