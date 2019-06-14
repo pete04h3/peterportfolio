@@ -215,15 +215,35 @@ nav ul li {
         background-image: url(IMG_1526.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 20vw;
+        height: 300vw;
+        ;
+
+
 
 
 
 
     }
 
+    .transparantlag {
+        background-color: rgba(255, 255, 255, 0.51);
+        opacity: 0.2;
+
+
+        border: 2px solid;
+        width: 99vw;
+        height: 530vw;
+        position: relative;
+        top: -403vw;
+        right: 17vw;
+        pointer-events: none;
+        z-index: 1;
+
+    }
+
     body {
         background-color: rgba(169, 169, 169, 0);
+        height: 812px;
     }
 
     h1 {
@@ -278,7 +298,7 @@ nav ul li {
         color: black;
         position: relative;
         top: 20vw;
-        left: 10vw;
+        left: -8vw;
         text-align: center;
     }
 
@@ -287,7 +307,7 @@ nav ul li {
         position: relative;
         font-family: "cabin", sans-serif;
         top: -9vw;
-        left: 25vw;
+        left: 6vw;
         font-size: 3rem;
     }
 
@@ -301,7 +321,7 @@ nav ul li {
         /* position */
         display: inline-block;
         position: relative;
-        left: 19vw;
+        left: 5vw;
         top: -18vw;
         margin-right: .65em;
 
@@ -336,7 +356,7 @@ nav ul li {
         /* position */
         display: inline-block;
         position: relative;
-        left: -9.5vw;
+        left: -23.4vw;
         top: -9vw;
         margin-right: .65em;
 
@@ -371,7 +391,7 @@ nav ul li {
         /* position */
         display: inline-block;
         position: relative;
-        left: -38vw;
+        left: -52vw;
         margin-right: .65em;
 
     }
@@ -431,17 +451,82 @@ nav ul li {
     }
 
     .portfoliooverskrift {
-        font-size: 3rem;
+        border: 6px solid white;
+        font-size: 15rem;
         margin: 3rem;
-        width: 80%;
+        width: 100%;
         color: black;
-        position: absolute;
+        position: relative;
         text-align: center;
-        top: 170vw;
-        left: -3vw;
+        top: -30vw;
+        left: -13vw;
+
+
 
 
     }
+
+    .portfoliooverskrift2 {
+        font-size: 3rem;
+        margin: 3rem;
+        width: 80%;
+        color: rgb(248, 246, 246);
+        position: relative;
+        text-align: center;
+        top: 90vw;
+        left: -12vw;
+
+    }
+
+    .graaprik {
+        color: rgba(255, 249, 253, 0.38);
+        font-family: monospace;
+        font-size: 6rem;
+        margin: 3rem;
+        width: 80%;
+        height: 25vw;
+        position: relative;
+        text-align: center;
+        top: 5vw;
+        left: -4vw;
+
+
+    }
+
+    .navnbox {
+        border: 0.8px solid white;
+
+        border-radius: 90px;
+        width: 94%;
+        height: 20vw;
+        position: relative;
+        top: 130vw;
+        right: -2.9vw;
+        display: block;
+        justify-content: center;
+        transform: scale(0.);
+        z-index: 1;
+
+    }
+
+    .pmjtxtkursiv {
+        color: lightcyan;
+
+        font-size: 0.9rem;
+        margin: 3rem;
+        width: 25%;
+        height: 2vw;
+        position: relative;
+        text-align: center;
+        top: 104vw;
+        left: 13.4vw;
+        transform: scale(2);
+        font-family: sans-serif;
+        font-weight: 250;
+        z-index: 2;
+
+    }
+
 
 
 
@@ -498,8 +583,10 @@ nav ul li {
 
     footer {
         position: relative;
-        background-color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0.6);
         height: 10vw;
+        top: -12vw;
+
 
 
 
@@ -507,7 +594,7 @@ nav ul li {
     }
 
     footer p {
-        color: black;
+        color: white;
         position: relative;
         justify-content: center;
         font-family: "cabin", sans-serif;
@@ -519,7 +606,7 @@ nav ul li {
     }
 
     .footerlogo {
-        color: black;
+        color: white;
         position: relative;
         justify-content: center;
         font-family: "cabin", sans-serif;
@@ -531,7 +618,7 @@ nav ul li {
     }
 
     .designbypetertxt {
-        color: black;
+        color: white;
         position: relative;
         justify-content: center;
         font-family: "cabin", sans-serif;
@@ -545,8 +632,9 @@ nav ul li {
 
 
     #overlay {
-        margin: -32px;
-        z-index: 2;
+        margin: -31px;
+        height: 340vw;
+        z-index: 4;
     }
 
     header .close-btn {
@@ -611,6 +699,10 @@ nav ul li {
         position: relative;
         top: 13vw;
         left: 1vw;
+    }
+
+    #temaslider {
+        display: none;
     }
 
     .tema1web {
