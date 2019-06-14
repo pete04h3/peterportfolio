@@ -225,6 +225,48 @@ nav ul li {
 
     }
 
+    #splash2 {
+        background-image: url(IMG_1526.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vw;
+
+
+
+
+
+
+
+    }
+
+    .mmdtxt {
+        font-family: sans-serif;
+        color: #000000;
+        font-size: 2rem;
+        width: 100vw;
+        position: relative;
+        top: -10vw;
+        left: -14vw;
+        text-align: left;
+        width: 80vw;
+    }
+
+    .mmdtxt3 {
+        font-family: sans-serif;
+        border-top: 2px solid black;
+        color: #000000;
+        position: relative;
+        top: -18vw;
+        left: -12vw;
+        text-align: center;
+        color: darkslategray;
+        padding-top: 2px;
+
+
+    }
+
+
+
     .transparantlag {
         background-color: rgba(255, 255, 255, 0.51);
         opacity: 0.2;
@@ -467,14 +509,15 @@ nav ul li {
     }
 
     .portfoliooverskrift2 {
-        font-size: 3rem;
+        border: 6px solid white;
+        font-size: 15rem;
         margin: 3rem;
-        width: 80%;
-        color: rgb(248, 246, 246);
+        width: 100%;
+        color: black;
         position: relative;
         text-align: center;
-        top: 90vw;
-        left: -12vw;
+        top: -25vw;
+        left: -13vw;
 
     }
 
@@ -491,6 +534,13 @@ nav ul li {
         left: -4vw;
 
 
+    }
+
+    .cvstreg {
+        position: relative;
+        width: 9vw;
+        left: -17vw;
+        top: -22vw;
     }
 
     .navnbox {
@@ -531,7 +581,94 @@ nav ul li {
 
 
     .peterpanikbillede {
-        display: none;
+        position: relative;
+        width: 80vw;
+        height: 80vw;
+        top: -20vw;
+        left: -7vw;
+        border-radius: 20px;
+
+    }
+
+    .profilbilledetxt {
+        position: relative;
+        top: -12vw;
+        text-align: center;
+        ;
+        font-family: "cabin", sans-serif;
+        font-size: 0.92rem;
+        transform: scale(1.5);
+
+    }
+
+    .profilbilledecvtxt {
+        position: relative;
+        font-family: sans-serif;
+        color: #000000;
+        font-size: 2rem;
+        width: 100vw;
+        position: relative;
+        top: -10vw;
+        left: 8vw;
+        text-align: center;
+        width: 20vw;
+    }
+
+    .cvtextunderprofilbillede {
+        position: relative;
+        font-family: sans-serif;
+        color: #000000;
+        font-size: 1rem;
+        width: 100vw;
+        position: relative;
+        top: -16vw;
+        left: 45vw;
+        text-align: center;
+        width: 20vw;
+
+    }
+
+    .upknap {
+        position: relative;
+        font-family: "cabin", sans-serif;
+        font-weight: 200;
+        font-size: 8rem;
+        width: 20vw;
+        height: 20vw;
+        position: relative;
+        top: 2vw;
+        left: 22vw;
+        text-align: center;
+        width: 20vw;
+        transform: rotate(300grad);
+        background-color: rgba(234, 234, 234, 0.74);
+        border-radius: 900px;
+        opacity: 1;
+        z-index: 1;
+
+    }
+
+    .upknap p {
+        position: relative;
+        font-family: "cabin", sans-serif;
+        font-weight: 200;
+        color: black;
+        text-shadow: 20px black;
+        font-size: 3rem;
+        width: 5vw;
+        height: 5vw;
+        position: relative;
+        top: 1.4vw;
+        text-align: center;
+        width: 20vw;
+        transform: rotate(00grad);
+
+    }
+
+    .footer3 {
+        position: relative;
+        top: 320vw;
+        height: 20vw;
     }
 
     .slider__contents {
@@ -617,6 +754,18 @@ nav ul li {
 
     }
 
+    .footerlogo2 {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        top: 4vw;
+        left: 1.5vw;
+        width: 98vw
+    }
+
     .designbypetertxt {
         color: white;
         position: relative;
@@ -630,10 +779,38 @@ nav ul li {
 
     }
 
+    .designbypetertxt2 {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        top: -11vw;
+        left: 75vw;
+        width: 20vw;
+
+    }
+
+    .footer2portfoliotxt {
+        font-size: 0.8rem;
+        position: relative;
+        top: -4vw;
+
+    }
+
+    .footer2 {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 10vw;
+        top: -12vw;
+
+    }
+
 
     #overlay {
         margin: -31px;
-        height: 340vw;
+        height: 463vw;
         z-index: 4;
     }
 
