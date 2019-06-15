@@ -1232,8 +1232,8 @@ nav ul li {
         width: 20vw;
         height: 20vw;
         position: relative;
-        top: -4vw;
-        left: 39vw;
+        top: -14vw;
+        left: 41vw;
         transform: rotate(20grad);
         border-radius: 30%;
 
@@ -1242,8 +1242,8 @@ nav ul li {
 
     .frametxt {
         position: relative;
-        top: -15vw;
-        left: 69.5vw;
+        top: -22vw;
+        left: 71.5vw;
         font-family: sans-serif;
         font-size: 1.5rem;
         letter-spacing: 2px;
@@ -1372,7 +1372,7 @@ nav ul li {
         color: black;
         position: relative;
         text-align: center;
-        top: 0;
+        top: -4vw;
         left: 32vw;
     }
 
@@ -1443,8 +1443,8 @@ nav ul li {
         position: relative;
         width: 10vw;
         height: 10vw;
-        top: -13vw;
-        left: 54vw;
+        top: -20vw;
+        left: 54.3vw;
         border-radius: 100px;
 
 
