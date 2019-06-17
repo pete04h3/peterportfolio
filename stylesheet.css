@@ -27,17 +27,19 @@ header .menu-btn {
     cursor: pointer;
 }
 
-section {
+#splash3 {
     padding: 4rem;
 }
 
-section h1 {
-    font-size: 3rem;
-    margin: 8rem auto;
-    width: 100%;
-    text-transform: uppercase;
-    color: aliceblue;
+#splash {
+    padding: 4rem;
 }
+
+#temaslider {
+    padding: 4rem;
+}
+
+
 
 
 #splash {
@@ -203,6 +205,77 @@ nav ul li {
     }
 }
 
+/***************/
+/*** regler for temasider***/
+
+.temaoverskrift {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.indholdparagraph p {
+    color: black;
+    text-align: center;
+    height: 10vw;
+    margin: 0 auto;
+
+
+}
+
+.indholdbilleder {
+    border: 2px solid red;
+    height: 40vw;
+    display: flex;
+    flex-basis: 1px;
+    margin: 0 auto;
+}
+
+.billedewrapper {
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+.billede1,
+.billede2 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    border: 2px solid red;
+    height: 40vw;
+    margin: 3rem;
+}
+
+.paragraph2 {
+    margin: 0 auto;
+    padding: 8vw;
+}
+
+.linkbox {
+    background-color: rgba(0, 0, 0, 0.88);
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+}
+
+.linkbox a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    padding: 3vh;
+}
+
+footer {
+    height: 5vw;
+}
+
+
+
+
 
 
 
@@ -252,11 +325,21 @@ nav ul li {
 
     }
 
-
-    .overskrift {
-        position: relative;
-        top: 0vw;
+    .billede1,
+    .billede2 {
+        flex-grow: 1;
+        flex-basis: 300px;
+        border: 2px solid red;
+        height: 40vw;
+        margin: 0 auto;
     }
+
+    #sectionwrapper {
+        padding: 0rem;
+        margin: 0;
+    }
+
+
 
     .frame {
         width: 20vw;
@@ -324,46 +407,7 @@ nav ul li {
 
     }
 
-    h1 {
-        font-size: 3rem;
-        margin: 3rem;
-        width: 80%;
-        color: black;
-        position: absolute;
-        text-align: center;
-        top: 70vw;
-        left: -3vw;
 
-
-
-    }
-
-    h2 {
-        font-size: 3rem;
-        margin: 3rem;
-        width: 10%;
-        text-transform: uppercase;
-        color: turquoise;
-        position: absolute;
-        text-align: center;
-        top: 70vw;
-        left: 61vw;
-    }
-
-    h3 {
-        font-size: 5rem;
-        margin: 3rem;
-        width: 10%;
-        height: 10%;
-        text-transform: uppercase;
-        color: turquoise;
-        position: absolute;
-        text-align: center;
-        top: 60vw;
-        left: 1vw;
-        opacity: 0.7;
-        font-family: cursive;
-    }
 
     .ommigtxt p {
         position: relative;
@@ -577,12 +621,7 @@ nav ul li {
 
     }
 
-    .footer3 {
-        position: relative;
-        top: 320vw;
-        height: 10vw;
-        background-color: rgba(0, 0, 0, 0.85);
-    }
+
 
     .portfoliotxtfooter {
         color: white;
@@ -608,10 +647,8 @@ nav ul li {
     }
 
     footer {
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.92);
         height: 10vw;
-        top: -12vw;
 
 
 
@@ -621,13 +658,9 @@ nav ul li {
 
     footer p {
         color: white;
-        position: relative;
-        justify-content: center;
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
-        top: -1vw;
-        right: 34vw;
 
     }
 
@@ -675,14 +708,13 @@ nav ul li {
 
     .designbypetertxt {
         color: white;
-        position: relative;
         justify-content: center;
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
-        top: -5.5vw;
-        left: 68vw;
-        width: 31vw;
+        left: 30vw;
+        position: relative;
+        top: -3vw;
 
     }
 
@@ -696,25 +728,6 @@ nav ul li {
         top: -11vw;
         left: 75vw;
         width: 20vw;
-
-    }
-
-    .footer2portfoliotxt {
-        font-size: 0.8rem;
-        position: relative;
-        top: -4vw;
-        width: 20vw;
-        left: 9vw;
-
-    }
-
-    .footer2 {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.6);
-        height: 3vw;
-        width: 91vw;
-        top: -12vw;
-        display: none;
 
     }
 
@@ -1184,25 +1197,7 @@ nav ul li {
         }
     }
 
-    footer {
-        background-color: black;
-        display: flex;
-        position: relative;
-        top: 0vw;
 
-    }
-
-    footer p {
-        color: white;
-        width: 35vw;
-        position: relative;
-        align-self: center;
-        text-align: center;
-        justify-content: space-between;
-        font-family: "cabin", sans-serif;
-        font-size: 0.7rem;
-
-    }
 
 
     #splash2 {
@@ -1240,6 +1235,7 @@ nav ul li {
     }
 
 
+
     .mmdtxt {
         display: flex;
         justify-content: center;
@@ -1247,7 +1243,7 @@ nav ul li {
         color: #000000;
         font-size: 3rem;
         position: relative;
-        top: 2vw;
+        top: 4vw;
         left: 0;
         letter-spacing: 0;
         text-align: center;
@@ -1262,7 +1258,7 @@ nav ul li {
         color: #000000;
         font-size: 1.3rem;
         position: relative;
-        top: -1vw;
+        top: 0;
         left: -3vw;
         width: 30vw;
         text-align: center;
@@ -1270,10 +1266,6 @@ nav ul li {
         padding-top: 6px;
 
 
-    }
-
-    .footer2portfoliotxt {
-        opacity: 0;
     }
 
     .frame {
@@ -1330,46 +1322,7 @@ nav ul li {
 
     }
 
-    h1 {
-        font-size: 3rem;
-        margin: 3rem;
-        width: 80%;
-        color: black;
-        position: absolute;
-        text-align: center;
-        top: 70vw;
-        left: -3vw;
 
-
-
-    }
-
-    h2 {
-        font-size: 3rem;
-        margin: 3rem;
-        width: 10%;
-        text-transform: uppercase;
-        color: turquoise;
-        position: absolute;
-        text-align: center;
-        top: 70vw;
-        left: 61vw;
-    }
-
-    h3 {
-        font-size: 5rem;
-        margin: 3rem;
-        width: 10%;
-        height: 10%;
-        text-transform: uppercase;
-        color: turquoise;
-        position: absolute;
-        text-align: center;
-        top: 60vw;
-        left: 1vw;
-        opacity: 0.7;
-        font-family: cursive;
-    }
 
     .ommigtxt p {
         position: relative;
@@ -1417,13 +1370,13 @@ nav ul li {
     .portfoliooverskrift3 {
         border: 6px solid white;
         font-size: 14rem;
-        margin: 3rem;
+        margin: 0 auto;
         width: 20%;
         color: black;
         position: relative;
         text-align: center;
         top: -2.5vw;
-        left: 32vw;
+        left: 0;
     }
 
     .graaprik {
@@ -1524,11 +1477,11 @@ nav ul li {
         font-size: 2rem;
         width: 100vw;
         position: relative;
-        top: -30vw;
-        left: 8vw;
+        top: 10vw;
+        left: 0;
         text-align: center;
         width: 20vw;
-        display: none;
+
 
     }
 
@@ -1538,7 +1491,7 @@ nav ul li {
         color: #000000;
         font-size: 1rem;
         position: relative;
-        top: 25vw;
+        top: 10vw;
         left: 7vw;
         text-align: center;
         width: 20vw;
@@ -1546,23 +1499,10 @@ nav ul li {
 
     }
 
-    .cvtextunderprofilbilledekea {
-        position: absolute;
-        font-family: sans-serif;
-        color: #000000;
-        font-size: 1rem;
-        position: relative;
-        top: 23.5vw;
-        left: 6.6vw;
-        text-align: center;
-        width: 20vw;
-
-
-    }
 
     .col_wide_txt {
         position: absolute;
-        top: 80vw;
+        top: 65.5vw;
         left: 1vw;
     }
 
@@ -1606,12 +1546,7 @@ nav ul li {
 
     }
 
-    .footer3 {
-        position: relative;
-        top: 90vw;
-        height: 3vw;
-        display: none;
-    }
+
 
     .overskrift {
         top: -65vw;
@@ -1684,14 +1619,14 @@ nav ul li {
 
     .tema3content p {
         position: relative;
-        top: 7vw;
+        top: 9vw;
     }
 
 
 
     .tema4ux p {
         position: relative;
-        top: 7vw;
+        top: 9vw;
     }
 
     /* [1] hover animation */
@@ -1753,6 +1688,87 @@ nav ul li {
         transition: all 0.8s ease-in-out;
         cursor: pointer;
     }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.92);
+
+        position: relative;
+        top: 50vw;
+
+
+
+
+
+    }
+
+    footer p {
+        color: white;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+
+    }
+
+    .footerlogo {
+        color: white;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        height: 2vw;
+        margin: 0 auto;
+
+    }
+
+    .portfoliotxtfooter {
+        color: white;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        top: 0;
+        left: 4vw;
+        height: 0;
+        margin: 0;
+
+
+    }
+
+
+    .footerlogo2 {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        top: 4vw;
+        left: 1.5vw;
+    }
+
+    .designbypetertxt {
+        color: white;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .designbypetertxt2 {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        top: -11vw;
+        left: 75vw;
+        width: 20vw;
+
+    }
+
 
 
 
