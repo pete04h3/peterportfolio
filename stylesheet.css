@@ -215,7 +215,7 @@ nav ul li {
         background-image: url(IMG_1526.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 300vw;
+        height: 303vw;
 
 
 
@@ -404,14 +404,14 @@ nav ul li {
 
     .portfoliooverskrift3 {
         border: 6px solid white;
-        font-size: 15rem;
+        font-size: 14rem;
         margin: 3rem;
-        width: 10vw;
+        width: 69vw;
         color: black;
         position: relative;
         text-align: center;
         top: -20vw;
-        left: -13vw;
+        left: -16vw;
 
     }
 
@@ -425,7 +425,7 @@ nav ul li {
         height: 25vw;
         position: relative;
         text-align: center;
-        top: 11vw;
+        top: 18vw;
         left: -4.5vw;
 
 
@@ -445,7 +445,7 @@ nav ul li {
         width: 94%;
         height: 20vw;
         position: relative;
-        top: 130vw;
+        top: 140vw;
         right: -2.9vw;
         display: block;
         justify-content: center;
@@ -463,7 +463,7 @@ nav ul li {
         height: 2vw;
         position: relative;
         text-align: center;
-        top: 104vw;
+        top: 115vw;
         left: 13.4vw;
         transform: scale(2);
         font-family: sans-serif;
@@ -492,8 +492,10 @@ nav ul li {
     .profilbilledetxt {
         position: relative;
         top: -12vw;
+        display: inline-flex;
+        left: 3vw;
+        width: 60vw;
         text-align: center;
-        ;
         font-family: "cabin", sans-serif;
         font-size: 0.92rem;
         transform: scale(1.5);
@@ -518,14 +520,28 @@ nav ul li {
         font-family: sans-serif;
         color: #000000;
         font-size: 1rem;
-        width: 100vw;
+        width: 50vw;
         position: relative;
-        top: -16vw;
-        left: 45vw;
+        top: 337vw;
+        left: 31vw;
         text-align: center;
-        width: 20vw;
 
     }
+
+
+    .col_wide_txt p {
+        position: relative;
+        width: 30vw;
+        height: 5.5vw;
+        left: -10vw;
+
+    }
+
+    .col_narrow_txt {
+        position: absolute;
+        top: 0vw;
+    }
+
 
     .upknap {
         position: relative;
@@ -535,10 +551,9 @@ nav ul li {
         width: 20vw;
         height: 20vw;
         position: relative;
-        top: 2vw;
-        left: 22vw;
+        top: 320vw;
+        left: 40vw;
         text-align: center;
-        width: 20vw;
         transform: rotate(300grad);
         background-color: rgba(234, 234, 234, 0.74);
         border-radius: 900px;
@@ -554,12 +569,10 @@ nav ul li {
         color: black;
         text-shadow: 20px black;
         font-size: 3rem;
-        width: 5vw;
         height: 5vw;
         position: relative;
         top: 1.4vw;
         text-align: center;
-        width: 20vw;
         transform: rotate(00grad);
 
     }
@@ -568,7 +581,18 @@ nav ul li {
         position: relative;
         top: 320vw;
         height: 10vw;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .portfoliotxtfooter {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        top: -7vw;
+        width: 31vw;
     }
 
     .slider__contents {
@@ -614,10 +638,28 @@ nav ul li {
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
-        top: 4vw;
-        left: 0.9vw;
+        top: 4.2vw;
+        left: 49vw;
+        width: 4vw;
+        height: 2vw;
 
     }
+
+    .portfoliotxtfooter {
+        color: white;
+        position: relative;
+        justify-content: center;
+        font-family: "cabin", sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        top: 0;
+        left: 4vw;
+        width: 30vw;
+        height: 0;
+
+
+    }
+
 
     .footerlogo2 {
         color: white;
@@ -638,8 +680,8 @@ nav ul li {
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
-        top: -7vw;
-        left: 69vw;
+        top: -5.5vw;
+        left: 68vw;
         width: 31vw;
 
     }
@@ -1205,7 +1247,8 @@ nav ul li {
         color: #000000;
         font-size: 3rem;
         position: relative;
-        top: 5vw;
+        top: 2vw;
+        left: 0;
         letter-spacing: 0;
         text-align: center;
         width: 26vw;
@@ -1219,8 +1262,8 @@ nav ul li {
         color: #000000;
         font-size: 1.3rem;
         position: relative;
-        top: 2vw;
-        left: -2vw;
+        top: -1vw;
+        left: -3vw;
         width: 30vw;
         text-align: center;
         color: darkslategray;
@@ -1237,7 +1280,7 @@ nav ul li {
         width: 25vw;
         height: 25vw;
         position: absolute;
-        top: 30vw;
+        top: 40vw;
         left: 71vw;
         transform: rotate(20grad);
         border-radius: 30%;
@@ -1247,17 +1290,18 @@ nav ul li {
 
     .frametxt {
         position: absolute;
-        top: 47vw;
-        left: 73.5vw;
+        top: 57vw;
+        left: 71vw;
         font-family: sans-serif;
         font-size: 1.5rem;
         letter-spacing: 2px;
-        color: black;
+        color: whitesmoke;
         z-index: 5;
         text-align: center;
         display: flex;
         justify-content: center;
         width: 20%;
+        transform: rotate(20grad);
     }
 
 
@@ -1446,20 +1490,21 @@ nav ul li {
 
 
     .peterpanikbillede2 {
-        position: relative;
-        width: 10vw;
-        height: 10vw;
-        top: -8vw;
-        left: 49.6vw;
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        top: 43vw;
+        left: 73.5vw;
         border-radius: 80px;
+        transform: rotate(20grad);
 
 
     }
 
     .profilbilledetxt {
         position: relative;
-        top: 2vw;
-        left: 0;
+        top: 0;
+        left: -1vw;
         text-align: justify;
         font-family: "cabin", sans-serif;
         font-size: 0.92rem;
@@ -1488,20 +1533,39 @@ nav ul li {
     }
 
     .cvtextunderprofilbillede {
-        position: relative;
+        position: absolute;
         font-family: sans-serif;
         color: #000000;
         font-size: 1rem;
-        width: 100vw;
         position: relative;
-        top: -16vw;
-        left: 45vw;
+        top: 25vw;
+        left: 7vw;
         text-align: center;
         width: 20vw;
-        display: none;
 
 
     }
+
+    .cvtextunderprofilbilledekea {
+        position: absolute;
+        font-family: sans-serif;
+        color: #000000;
+        font-size: 1rem;
+        position: relative;
+        top: 23.5vw;
+        left: 6.6vw;
+        text-align: center;
+        width: 20vw;
+
+
+    }
+
+    .col_wide_txt {
+        position: absolute;
+        top: 80vw;
+        left: 1vw;
+    }
+
 
     .upknap {
         position: relative;
