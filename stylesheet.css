@@ -237,7 +237,8 @@ nav ul li a {
 }
 
 .indholdbilleder img {
-    width: 50%;
+    width: 60%;
+    height: 40vw;
 
 }
 
@@ -2440,6 +2441,7 @@ main {
         text-align: center;
 
     }
+
 
 
 
