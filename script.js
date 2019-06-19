@@ -1,5 +1,3 @@
-//javascript burgermenu overlay
-
 const overlay = document.getElementById('overlay');
 const closeMenu = document.getElementById('close-menu');
 

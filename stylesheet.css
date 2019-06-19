@@ -39,6 +39,10 @@ header .menu-btn {
     padding: 4rem;
 }
 
+#splash2 {
+    padding: 4rem;
+}
+
 
 
 
@@ -54,31 +58,26 @@ nav {
     position: absolute;
     background: rgba(0, 0, 0, 0.85);
     padding: 2rem;
-    width: calc(100% - 4rem);
-    height: calc(100vh - 4rem);
-    display: none;
-    -webkit-transform: scaleX(0);
+    width: 100%;
+    height: 100vh;
     transform: scaleX(0);
-    -webkit-transform-origin: right;
     transform-origin: right;
 }
 
 nav .close-button {
-    width: 30px;
+    width: 45px;
     float: right;
     cursor: pointer;
     opacity: 0;
+    left: 40px;
+    position: relative;
 }
 
 nav ul {
     list-style-type: none;
     margin: 10% auto 0 auto;
-    padding: 0;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (auto)[4];
-    grid-template-columns: repeat(4, auto);
     width: 90%;
+
 
 }
 
@@ -86,20 +85,31 @@ nav ul a {
     color: white;
     font-weight: bold;
     font-size: 1.4rem;
-}
-
-nav ul p {
-    color: gray;
-    font-size: 1rem;
-    margin-top: 20px;
-
 
 }
+
 
 nav ul li {
     opacity: 0;
 
+
+
 }
+
+nav ul li a {
+    font-size: 3rem;
+    color: aliceblue;
+    top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 27vw;
+
+
+
+
+}
+
+
 
 .show-menu {
     display: block;
@@ -212,6 +222,7 @@ nav ul li {
     color: black;
     text-align: center;
     margin: 0 auto;
+    font-size: 3rem;
 
 
 }
@@ -225,17 +236,40 @@ nav ul li {
 
 }
 
-.indholdbilleder {
-    border: 2px solid red;
+.indholdbilleder img {
+    width: 50%;
+
+}
+
+.kodeeksempel1 {
+    width: 100%;
     height: 40vw;
+}
+
+.gestaltlovsbillede {
+    width: 100%;
+    height: 100%;
+}
+
+.gestaltlovsbillede2 {
+    width: 100%;
+    height: 90%;
+}
+
+.gestaltlovsbillede3 {
+    width: 40vw;
+    height: 30vw;
+}
+
+.indholdbilleder {
     display: flex;
-    flex-basis: 1px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .billedewrapper {
     display: flex;
-    margin: 0 auto;
+    margin: 3rem;
 
 
 }
@@ -244,21 +278,37 @@ nav ul li {
 .billede2 {
     flex-grow: 1;
     flex-basis: 300px;
-    border: 2px solid red;
-    height: 40vw;
+    margin: 0 auto;
     margin: 3rem;
+}
+
+.billede3 {
+    flex-basis: 300px;
+    margin: 0 auto;
+
+
+}
+
+.billede4 {
+    flex-basis: 300px;
+    margin: 0 auto;
+    width: 100%;
+    height: 70%;
+
 }
 
 .paragraph2 {
     margin: 0 auto;
-    padding: 8vw;
+    padding-top: 1vw;
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 20px;
 }
 
 .linkbox {
     background-color: rgba(0, 0, 0, 0.88);
-    min-width: 100px;
-    min-height: 50px;
     text-align: center;
+
 }
 
 .linkbox a {
@@ -270,7 +320,781 @@ nav ul li {
 }
 
 footer {
+    height: 6vw;
+
+}
+
+.bottomtxt {
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+}
+
+.mitegetspil {
+    width: 20vw;
+    height: 20vw;
+}
+
+#cvtxt {
+    display: none;
+}
+
+#splash {
+    background-image: url(IMG_1526.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 91.2vw;
+    height: 50vh;
+    cursor: pointer;
+
+
+
+
+}
+
+
+
+.peterpanikbillede {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    border-radius: 100px;
+    top: 0vw;
+    left: 2.5vw;
+    opacity: 0.8;
+    display: none;
+
+
+}
+
+
+
+
+nav ul p {
+    color: gray;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10% auto 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+    height: 0;
+    float: left;
+}
+
+nav {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    padding: 1rem;
+
+
+
+
+
+}
+
+nav ul a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 8.7vw;
+    left: 36vw;
+}
+
+
+
+
+header .menu-btn {
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    opacity: 1;
+    position: relative;
+    bottom: 0.5vw;
+
+
+
+}
+
+
+
+
+
+/***************/
+/* tema slider */
+
+#temaslider {
+    width: 91vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0vw;
+    margin: 0 auto;
+    align-content: center;
+    font-size: 1.3rem;
+
+
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0vw;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.slider__nav {
+    width: 12px;
+    height: 12px;
+    margin: 2rem 12px;
+    border-radius: 60%;
+    z-index: 10;
+    outline: 7px solid #d4d4d1;
+    outline-offset: -6px;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    cursor: pointer;
+    appearance: none;
+    backface-visibility: hidden;
+    position: relative;
+    top: 0vw;
+    display: flex;
+    align-content: center;
+
+}
+
+.slider__nav:checked {
+    -webkit-animation: check 0.4s linear forwards;
+    animation: check 0.4s linear forwards;
+}
+
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+    left: 0%;
+}
+
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+    left: -100%;
+}
+
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+    left: -200%;
+}
+
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+    left: -300%;
+}
+
+.slider__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 100%;
+    transition: left 0.4s;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.slider__contents {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slider__image {
+    color: #2196F3;
+    position: relative;
+    height: 11vw;
+
+
+
+}
+
+
+.slider__txt {
+    color: #999;
+    margin-bottom: 3rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+@-webkit-keyframes check {
+    50% {
+        outline-color: #333;
+        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    }
+
+    100% {
+        outline-color: #333;
+        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    }
+}
+
+@keyframes check {
+    50% {
+        outline-color: #333;
+        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    }
+
+    100% {
+        outline-color: #333;
+        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    }
+}
+
+
+
+
+#splash2 {
+    background-image: url(IMG_1526.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 91vw;
+    height: 160vh;
+
+
+
+
+
+
+
+
+
+}
+
+#splash3 {
+    background-image: url(IMG_1526.jpg);
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    width: 91vw;
+    height: 40vh;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.mmdtxt {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 3rem;
+    position: relative;
+    top: 4vw;
+    left: 0;
+    letter-spacing: 0;
+    text-align: center;
+    width: 26vw;
+}
+
+.mmdtxt3 {
+    display: block;
+    justify-content: center;
+    font-family: sans-serif;
+    border-top: 2px solid black;
+    color: #000000;
+    font-size: 1.3rem;
+    position: relative;
+    top: 0;
+    left: -3vw;
+    width: 30vw;
+    text-align: center;
+    color: darkslategray;
+    padding-top: 6px;
+
+
+}
+
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -22px;
+}
+
+
+body {
+    background-color: rgba(169, 169, 169, 0);
+
+}
+
+
+
+.portfoliooverskrift {
+    border: 6px solid white;
+    font-size: 14rem;
+    margin: 3rem;
+    width: 20%;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -3vw;
+    left: 33vw;
+
+}
+
+.portfoliooverskrift2 {
+    border: 6px solid white;
+    font-size: 15rem;
+    margin: 3rem;
+    width: 100%;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -25vw;
+    left: -13vw;
+
+}
+
+.portfoliooverskrift3 {
+    border: 6px solid white;
+    font-size: 14rem;
+    margin: 0 auto;
+    width: 20%;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -2.5vw;
+    left: 0;
+}
+
+.prik {
+    color: rgba(255, 249, 253, 0.38);
+    font-family: monospace;
+    font-size: 6rem;
+    margin: 3rem;
+    width: 80%;
+    height: 25vw;
+    position: relative;
+    text-align: center;
+    top: 5vw;
+    left: -4vw;
+    display: none;
+
+
+}
+
+.navnbox {
+    border: 0.8px solid white;
+
+    border-radius: 90px;
+    width: 94%;
+    height: 20vw;
+    position: relative;
+    top: 130vw;
+    right: -2.9vw;
+    display: block;
+    justify-content: center;
+    transform: scale(0.);
+    z-index: 1;
+    display: none;
+
+}
+
+
+
+
+.peterpanikbillede2 {
+    width: 50%;
+    position: relative;
+    top: 130px;
+    margin: 0 auto;
+    border-radius: 80px;
+
+
+}
+
+.profilbilledetxt {
+    text-align: justify;
+    font-family: "cabin", sans-serif;
+    font-size: 1.5rem;
+    width: 30vw;
+    left: 720px;
+    margin: 3rem;
+    position: relative;
+    top: -500px;
+
+
+}
+
+.profilbilledecvtxt {
+    position: relative;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 2rem;
+    position: relative;
+    top: -500px;
+    left: 850px;
+    text-align: center;
+    width: 10vw;
+    margin: 3rem;
+
+
+}
+
+.cvtextunderprofilbillede {
+    position: absolute;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+    position: relative;
+    top: -500px;
+    left: 324px;
+    text-align: center;
+    width: 20vw;
+    margin: 0 auto;
+    letter-spacing: 0.8px;
+    padding: 3px;
+
+
+}
+
+
+
+.upknap {
+    position: relative;
+    font-family: "cabin", sans-serif;
+    font-weight: 200;
+    font-size: 8rem;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    top: 2vw;
+    left: 22vw;
+    text-align: center;
+    width: 20vw;
+    transform: rotate(300grad);
+    background-color: rgba(234, 234, 234, 0.74);
+    border-radius: 900px;
+    opacity: 1;
+    z-index: 1;
+    display: none;
+
+}
+
+.upknap p {
+    position: relative;
+    font-family: "cabin", sans-serif;
+    font-weight: 200;
+    color: black;
+    text-shadow: 20px black;
+    font-size: 3rem;
+    width: 5vw;
     height: 5vw;
+    position: relative;
+    top: 1.4vw;
+    text-align: center;
+    width: 20vw;
+    transform: rotate(00grad);
+    display: none;
+
+}
+
+
+
+.overskrift {
+    text-align: center;
+    margin: 0 auto;
+    left: -1.vw;
+    top: -70vw;
+
+}
+
+
+/*temaer*/
+#temaer2 {
+    display: flex;
+    margin: 4rem;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+
+
+
+
+}
+
+#temaer3 {
+    display: flex;
+    margin: 4rem;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-bottom: 0px;
+    margin-top: 0;
+
+
+
+
+
+}
+
+.tema3content {
+    background-color: rgba(11, 11, 11, 0.74);
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    flex-basis: 300px;
+
+
+
+
+
+}
+
+
+
+.tema4ux {
+    background-color: rgba(11, 11, 11, 0.74);
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    flex-basis: 300px;
+
+
+}
+
+
+.tema3content p {
+    position: relative;
+    top: 55px;
+
+}
+
+
+
+.tema4ux p {
+    position: relative;
+    top: 55px;
+
+}
+
+/* [1] hover animation */
+
+
+/* [2] Transition property for smooth transformation of img/text */
+.tema1web p {
+    transition: transform .5s ease;
+}
+
+/* [3] transforming image når container bliver hovered */
+.tema1web:hover p {
+    transform: scale(1.5);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+/* [1] hover animation */
+
+
+/* [2] Transition property for smooth transformation of img/text */
+.tema2animation p {
+    transition: transform .5s ease;
+}
+
+/* [3] transforming image når container bliver hovered */
+.tema2animation:hover p {
+    transform: scale(1.5);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+/* [1] hover animation */
+
+
+/* [2] Transition property for smooth transformation of img/text */
+.tema3content p {
+    transition: transform .5s ease;
+}
+
+/* [3] transforming image når container bliver hovered */
+.tema3content:hover p {
+    transform: scale(1.5);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+/* [1] hover animation */
+
+
+/* [2] Transition property for smooth transformation of img/text */
+.tema4ux p {
+    transition: transform .5s ease;
+}
+
+/* [3] transforming image når container bliver hovered */
+.tema4ux:hover p {
+    transform: scale(1.5);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.92);
+    margin: 0 auto;
+    top: 25vw;
+    position: relative;
+
+
+
+
+
+
+}
+
+footer p {
+    color: white;
+    font-family: "cabin", sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 2px;
+
+
+}
+
+.footer2 {
+    background-color: rgba(0, 0, 0, 0.92);
+    margin: 0 auto;
+    position: relative;
+    top: 35vw;
+
+
+}
+
+.footer3 {
+    background-color: rgba(0, 0, 0, 0.92);
+    margin: 0 auto;
+    top: 114vw;
+
+
+}
+
+.footer4 {
+    top: 84.7vw;
+
+}
+
+.footer5 {
+    top: 81vw;
+}
+
+.footer6 {
+    top: 159.8vw;
+
+}
+
+.footer7 {
+    top: 104.3vw;
+}
+
+.footerlogo {
+    color: white;
+    justify-content: center;
+    font-family: "cabin", sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+
+
+.portfoliotxtfooter {
+    color: white;
+    justify-content: center;
+    font-family: "cabin", sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    top: 0;
+    left: 4vw;
+    height: 0;
+    margin: 0;
+
+
+}
+
+
+.footerlogo2 {
+    color: white;
+    position: relative;
+    justify-content: center;
+    font-family: "cabin", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    top: 4vw;
+    left: 1.5vw;
+}
+
+.designbypetertxt {
+    color: white;
+    justify-content: center;
+    font-family: "cabin", sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    position: relative;
+
+}
+
+.designbypetertxt2 {
+    color: white;
+    position: relative;
+    justify-content: center;
+    font-family: "cabin", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    top: -11vw;
+    left: 75vw;
+    width: 20vw;
+
+}
+
+main {
+    height: 812px;
+}
+
+.temaoverskrift {
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+
 }
 
 
@@ -286,22 +1110,20 @@ footer {
 @media only screen and (max-width: 375px) {
     #splash {
         background-image: url(IMG_1526.jpg);
-        background-size: cover;
         background-repeat: no-repeat;
-        height: 303vw;
-
-
-
-
+        width: 100%;
+        height: 105vh;
 
 
     }
 
+
     #splash2 {
         background-image: url(IMG_1526.jpg);
-        background-size: cover;
+        background-size: ;
         background-repeat: no-repeat;
-        height: 70vw;
+        height: 130vh;
+        width: 100%;
 
 
 
@@ -313,9 +1135,14 @@ footer {
 
     #splash3 {
         background-image: url(IMG_1526.jpg);
+        width: 92vw;
+        height: 180vh;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 70vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
 
 
 
@@ -354,89 +1181,16 @@ footer {
 
 
 
-    .mmdtxt {
-        display: flex;
-        justify-content: center;
-        font-family: sans-serif;
-        color: #000000;
-        font-size: 2rem;
-        width: 100vw;
-        position: relative;
-        top: -10vw;
-        left: -5vw;
-        text-align: center;
-        width: 80vw;
-    }
-
-    .mmdtxt3 {
-        display: block;
-        justify-content: center;
-        font-family: sans-serif;
-        border-top: 2px solid black;
-        color: #000000;
-        font-size: 1.3rem;
-        position: relative;
-        top: -18vw;
-        left: 3vw;
-        text-align: center;
-        color: darkslategray;
-        padding-top: 6px;
-
-
-    }
-
-
-
-
-    .transparantlag {
-        background-color: rgba(255, 255, 255, 0.51);
-        opacity: 0.2;
-        width: 99vw;
-        height: 552vw;
-        position: relative;
-        top: -403vw;
-        right: 17vw;
-        pointer-events: none;
-        z-index: 1;
-
-    }
-
-    body {
-        background-color: rgba(169, 169, 169, 0);
-        height: 812px;
-
-    }
-
-
-
-    .ommigtxt p {
-        position: relative;
-        top: 20vw;
-        text-align: center;
-
-    }
-
-    .cvtxt {
-        color: black;
-        position: relative;
-        top: 20vw;
-        left: -8vw;
-        text-align: center;
-    }
-
-
 
     .portfoliooverskrift {
         border: 6px solid white;
         font-size: 13.2rem;
-        margin: 3rem;
-        width: 100%;
-        color: black;
+        margin: 0 auto;
         position: relative;
+        width: 60%;
+        left: 2px;
+        color: black;
         text-align: center;
-        top: -30vw;
-        left: -13vw;
-        letter-spacing: inherit;
         font-family: "cabin", sans-serif;
 
 
@@ -454,32 +1208,22 @@ footer {
         color: black;
         position: relative;
         text-align: center;
-        top: -20vw;
-        left: -16vw;
+        left: 0;
 
     }
 
 
-    .graaprik {
+    .prik {
         color: rgba(255, 249, 253, 0.38);
         font-family: monospace;
         font-size: 6rem;
-        margin: 3rem;
-        width: 80%;
+        margin: 0 auto;
         height: 25vw;
         position: relative;
         text-align: center;
-        top: 18vw;
-        left: -4.5vw;
+        top: 36vw;
 
 
-    }
-
-    .cvstreg {
-        position: relative;
-        width: 9vw;
-        left: -17vw;
-        top: -22vw;
     }
 
     .navnbox {
@@ -489,30 +1233,21 @@ footer {
         width: 94%;
         height: 20vw;
         position: relative;
-        top: 140vw;
         right: -2.9vw;
         display: block;
         justify-content: center;
-        transform: scale(0.);
+        transform: scale(1);
         z-index: 1;
 
     }
 
-    .pmjtxtkursiv {
-        color: lightcyan;
-
-        font-size: 0.9rem;
-        margin: 3rem;
-        width: 25%;
-        height: 2vw;
+    .navnboxtext {
+        color: aliceblue;
         position: relative;
+        margin: 0 auto;
+        top: 420px;
+        font-size: 3rem;
         text-align: center;
-        top: 115vw;
-        left: 13.4vw;
-        transform: scale(2);
-        font-family: sans-serif;
-        font-weight: 250;
-        z-index: 2;
 
     }
 
@@ -520,12 +1255,12 @@ footer {
 
 
     .peterpanikbillede2 {
-        position: relative;
-        width: 80vw;
-        height: 80vw;
-        top: -20vw;
-        left: -7vw;
+        width: 95vw;
+        height: 95vw;
+        margin: 0 auto;
         border-radius: 20px;
+        position: relative;
+        top: -400px;
 
     }
 
@@ -534,57 +1269,48 @@ footer {
     }
 
     .profilbilledetxt {
-        position: relative;
-        top: -12vw;
-        display: inline-flex;
-        left: 3vw;
-        width: 60vw;
+        left: 6px;
+        width: 100%;
         text-align: center;
         font-family: "cabin", sans-serif;
-        font-size: 0.92rem;
-        transform: scale(1.5);
+        font-size: 2rem;
+        position: relative;
+        top: -380px;
+        margin: 0 auto;
+        color: aliceblue;
+        background-color: rgba(7, 10, 10, 0.47);
 
     }
 
     .profilbilledecvtxt {
-        position: relative;
-        font-family: sans-serif;
-        color: #000000;
-        font-size: 2rem;
-        width: 100vw;
-        position: relative;
-        top: -10vw;
-        left: 8vw;
+        font-family: "cabin", sans-serif;
+        color: aliceblue;
+        background-color: rgba(7, 10, 10, 0.47);
+        font-size: 4rem;
+        top: -330px;
         text-align: center;
-        width: 20vw;
+        margin: 0 auto;
+        position: relative;
+        left: 1px;
+        width: 100%
     }
 
     .cvtextunderprofilbillede {
         position: relative;
-        font-family: sans-serif;
-        color: #000000;
-        font-size: 1rem;
-        width: 50vw;
-        position: relative;
-        top: 337vw;
-        left: 31vw;
+        font-family: "cabin", sans-serif;
+        color: aliceblue;
+        background-color: rgba(7, 10, 10, 0.35);
+        font-size: 1.6rem;
+        width: 100%;
+        height: 100%;
+        top: -280px;
         text-align: center;
+        margin: 0 auto;
+        left: 0;
+
 
     }
 
-
-    .col_wide_txt p {
-        position: relative;
-        width: 30vw;
-        height: 5.5vw;
-        left: -10vw;
-
-    }
-
-    .col_narrow_txt {
-        position: absolute;
-        top: 0vw;
-    }
 
 
     .upknap {
@@ -595,8 +1321,7 @@ footer {
         width: 20vw;
         height: 20vw;
         position: relative;
-        top: 320vw;
-        left: 40vw;
+        left: 200px;
         text-align: center;
         transform: rotate(300grad);
         background-color: rgba(234, 234, 234, 0.74);
@@ -632,6 +1357,7 @@ footer {
         text-align: center;
         top: -7vw;
         width: 31vw;
+        display: none;
     }
 
     .slider__contents {
@@ -647,13 +1373,10 @@ footer {
     }
 
     footer {
-        background-color: rgba(0, 0, 0, 0.92);
+        background-color: black;
         height: 10vw;
-
-
-
-
-
+        width: 126vw;
+        display: none;
     }
 
     footer p {
@@ -661,7 +1384,22 @@ footer {
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        display: none;
 
+
+
+    }
+
+    .footer2 {
+        background-color: black;
+        height: 12vw;
+        position: relative;
+        top: 156px;
+        width: 4px;
+        display: none;
     }
 
     .footerlogo {
@@ -675,6 +1413,7 @@ footer {
         left: 49vw;
         width: 4vw;
         height: 2vw;
+        display: none;
 
     }
 
@@ -689,6 +1428,7 @@ footer {
         left: 4vw;
         width: 30vw;
         height: 0;
+        display: none;
 
 
     }
@@ -703,40 +1443,22 @@ footer {
         text-align: center;
         top: 4vw;
         left: 1.5vw;
-        width: 98vw
-    }
-
-    .designbypetertxt {
-        color: white;
-        justify-content: center;
-        font-family: "cabin", sans-serif;
-        font-size: 0.6rem;
-        text-align: center;
-        left: 30vw;
-        position: relative;
-        top: -3vw;
-
-    }
-
-    .designbypetertxt2 {
-        color: white;
-        position: relative;
-        justify-content: center;
-        font-family: "cabin", sans-serif;
-        font-size: 0.8rem;
-        text-align: center;
-        top: -11vw;
-        left: 75vw;
-        width: 20vw;
-
+        width: 98vw;
+        display: none;
     }
 
 
 
     #overlay {
-        margin: -31px;
-        height: 463vw;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 90px;
+        margin-left: -40px;
+        top: 1px;
+        width: 100vw;
+        height: 130vh;
         z-index: 4;
+        background-color: rgba(0, 0, 0, 0.87);
     }
 
     header .close-btn {
@@ -748,106 +1470,101 @@ footer {
         bottom: 0.5vw;
 
 
+
+
+    }
+
+    header .menu-btn {
+        width: 45px;
+        float: right;
+        cursor: pointer;
+        position: relative;
+        left: 115px;
+        top: -3vw;
     }
 
     nav ul p {
         color: gray;
         font-size: 1rem;
         margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 10% auto 0 auto;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 90%;
-
-
-
     }
 
 
 
 
-
-    #temaer p {
-        font-family: 'Cabin', sans-serif;
-        font-size: 1.4rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-align: center;
-        color: black;
-        position: relative;
-        top: 13vw;
-        left: 1vw;
-    }
 
     #temaslider {
         display: none;
     }
 
-    /*temaer*/
     #temaer2 {
         display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        padding: 4%;
-        position: relative;
-        left: 0;
-        top: 0;
+        margin: 4rem;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 15vw;
+        padding-right: 20vw;
+        margin-bottom: 0;
+        margin-top: -30px;
+
+
+
+
+
+
+    }
+
+    #temaer3 {
+        display: flex;
+        margin: 4rem;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 15vw;
+        padding-right: 20vw;
+        margin-bottom: 0;
+        margin-top: 0;
+
+
+
 
 
     }
 
     .tema3content {
-
-        background-color: rgb(11, 11, 11);
-        opacity: 0.8;
+        background-color: rgba(11, 11, 11, 0.74);
+        opacity: 1;
         color: aliceblue;
         font-size: 2rem;
         text-align: center;
-        width: 60vw;
-        height: 50vw;
-        position: relative;
-        top: 0;
+        width: 40vw;
+        height: 40vw;
         flex-basis: 300px;
-        justify-content: center;
-        display: flex;
+
+
 
 
 
     }
+
+
 
     .tema4ux {
-
-        background-color: rgb(11, 11, 11);
-        opacity: 0.8;
+        background-color: rgba(11, 11, 11, 0.74);
+        opacity: 1;
         color: aliceblue;
         font-size: 2rem;
         text-align: center;
-        width: 60vw;
-        height: 50vw;
-        position: relative;
-        margin-left: 5vw;
+        width: 40vw;
+        height: 40vw;
         flex-basis: 300px;
 
     }
 
-    .tema3content p {
-        position: relative;
-        top: 12vw;
-        height: 5vw;
+    .overskrift {
+        display: none;
     }
 
-    .tema4ux p {
-        position: relative;
-        top: 12vw;
-    }
+
 
 
 
@@ -912,34 +1629,6 @@ footer {
 
     }
 
-    #temaer {
-
-        display: flex;
-        height: 0.5vw;
-        align-items: center;
-        display: none;
-
-    }
-
-
-    #temaer p {
-        font-family: 'Cabin', sans-serif;
-        text-transform: uppercase;
-        font-size: 2rem;
-        text-align: center;
-        color: black;
-        position: relative;
-        width: 40vw;
-        justify-content: space-around;
-        flex-direction: row;
-
-
-
-
-
-
-    }
-
 
 
 
@@ -954,17 +1643,18 @@ footer {
 @media only screen and (min-width: 728px) {
     #splash {
         background-image: url(IMG_1526.jpg);
-        background-size: 100% 80%;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 91.2vw;
         height: 50vh;
         cursor: pointer;
-        position: relative;
 
 
 
 
     }
+
+
 
     .peterpanikbillede {
         width: 20vw;
@@ -1021,6 +1711,32 @@ footer {
         left: 36vw;
     }
 
+    nav ul li a {
+        font-size: 3rem;
+        color: aliceblue;
+        top: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 27vw;
+        display: none;
+
+
+
+
+    }
+
+    .navnboxtext {
+        color: aliceblue;
+        position: relative;
+        margin: 0 auto;
+        top: 420px;
+        font-size: 3rem;
+        text-align: center;
+        display: none;
+
+    }
+
+
 
 
 
@@ -1037,45 +1753,20 @@ footer {
     }
 
 
-    #temaer {
-        display: flex;
-        width: 80vw;
-        top: -50vw;
-        left: 5vw;
-        display: none;
 
 
-
-    }
-
-    #temaer p {
-        font-family: 'Cabin', sans-serif;
-        text-transform: uppercase;
-        font-size: 2rem;
-        text-align: center;
-        color: black;
-        position: relative;
-        width: 10vw;
-        justify-content: space-between;
-
-
-
-
-
-
-    }
 
     /***************/
     /* tema slider */
 
     #temaslider {
         width: 91vw;
-        height: 25vw;
+        height: 20vw;
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 0;
-        justify-content: center;
+        top: 0vw;
+        margin: 0 auto;
         align-content: center;
         font-size: 1.3rem;
 
@@ -1084,7 +1775,8 @@ footer {
 
     .slider {
         height: 100%;
-        top: -10vw;
+        width: 100%;
+        top: 0;
         left: 0vw;
         position: relative;
         overflow: hidden;
@@ -1219,7 +1911,7 @@ footer {
 
     #splash3 {
         background-image: url(IMG_1526.jpg);
-        background-size: 100% 100%;
+        background-size: 100% 95%;
         background-repeat: no-repeat;
         width: 91vw;
         height: 40vh;
@@ -1269,74 +1961,16 @@ footer {
     }
 
     .frame {
-        width: 25vw;
-        height: 25vw;
-        position: absolute;
-        top: 40vw;
-        left: 71vw;
-        transform: rotate(20grad);
-        border-radius: 30%;
-
-
-    }
-
-    .frametxt {
-        position: absolute;
-        top: 57vw;
-        left: 71vw;
-        font-family: sans-serif;
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-        color: whitesmoke;
-        z-index: 5;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        width: 20%;
-        transform: rotate(20grad);
-    }
-
-
-
-
-    .transparantlag {
-        background-color: rgba(255, 255, 255, 0.51);
-        opacity: 0.2;
-
-
-        border: 2px solid;
-        width: 121.2vw;
-        height: 200vw;
+        width: 100%;
+        height: 100%;
         position: relative;
-        top: -86vw;
-        right: 17vw;
-        pointer-events: none;
-        z-index: 1;
-        display: none;
-
+        top: -22px;
     }
+
 
     body {
         background-color: rgba(169, 169, 169, 0);
-        height: 812px;
 
-    }
-
-
-
-    .ommigtxt p {
-        position: relative;
-        top: 20vw;
-        text-align: center;
-
-    }
-
-    .cvtxt {
-        color: black;
-        position: relative;
-        top: 20vw;
-        left: -8vw;
-        text-align: center;
     }
 
 
@@ -1395,14 +2029,6 @@ footer {
 
     }
 
-    .cvstreg {
-        position: relative;
-        width: 9vw;
-        left: -17vw;
-        top: -22vw;
-        display: none;
-    }
-
     .navnbox {
         border: 0.8px solid white;
 
@@ -1443,29 +2069,25 @@ footer {
 
 
     .peterpanikbillede2 {
-        position: absolute;
-        width: 20vw;
-        height: 20vw;
-        top: 43vw;
-        left: 73.5vw;
+        width: 50%;
+        position: relative;
+        top: 130px;
+        margin: 0 auto;
         border-radius: 80px;
-        transform: rotate(20grad);
 
 
     }
 
     .profilbilledetxt {
-        position: relative;
-        top: 0;
-        left: -1vw;
         text-align: justify;
         font-family: "cabin", sans-serif;
-        font-size: 0.92rem;
-        transform: scale(1.2);
-        display: flex;
-        justify-content: flex-start;
-        width: 25vw;
-        float: left;
+        font-size: 1.5rem;
+        width: 30vw;
+        left: 720px;
+        margin: 3rem;
+        ;
+        position: relative;
+        top: -500px;
 
 
     }
@@ -1475,12 +2097,12 @@ footer {
         font-family: sans-serif;
         color: #000000;
         font-size: 2rem;
-        width: 100vw;
         position: relative;
-        top: 10vw;
-        left: 0;
+        top: -500px;
+        left: 850px;
         text-align: center;
-        width: 20vw;
+        width: 10vw;
+        margin: 3rem;
 
 
     }
@@ -1489,22 +2111,19 @@ footer {
         position: absolute;
         font-family: sans-serif;
         color: #000000;
-        font-size: 1rem;
+        font-size: 1.5rem;
         position: relative;
-        top: 10vw;
-        left: 7vw;
+        top: -500px;
+        left: 324px;
         text-align: center;
         width: 20vw;
+        margin: 0 auto;
+        letter-spacing: 0.8px;
+        padding: 3px;
 
 
     }
 
-
-    .col_wide_txt {
-        position: absolute;
-        top: 65.5vw;
-        left: 1vw;
-    }
 
 
     .upknap {
@@ -1549,70 +2168,75 @@ footer {
 
 
     .overskrift {
-        top: -65vw;
-        left: 6vw;
         text-align: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
+        margin: 0 auto;
+        left: -1.vw;
+        top: -70vw;
+
     }
 
 
     /*temaer*/
     #temaer2 {
-        width: 60.7vw;
-        height: 90vh;
         display: flex;
-        justify-content: space-between;
-        margin: 0;
-        flex-direction: column;
-        position: absolute;
-        left: 15vw;
-        top: 40vw;
+        margin: 4rem;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-bottom: 0;
+        margin-top: 0;
+
+
+
+
+
 
     }
 
     #temaer3 {
-        width: 20.7vw;
-        height: 90vh;
         display: flex;
-        justify-content: space-between;
-        margin: 0;
-        flex-direction: column;
-        position: absolute;
-        left: 55vw;
-        top: 40vw;
+        margin: 4rem;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-bottom: 0px;
+        margin-top: 0;
+
+
+
+
+
     }
 
     .tema3content {
-        background-color: rgb(11, 11, 11);
+        background-color: rgba(11, 11, 11, 0.74);
         opacity: 1;
         color: aliceblue;
         font-size: 2rem;
         text-align: center;
         width: 20vw;
         height: 20vw;
-        position: relative;
-        top: 0;
         flex-basis: 300px;
-        border-radius: 20%;
+
+
+
+
 
     }
 
 
 
     .tema4ux {
-        background-color: rgb(11, 11, 11);
+        background-color: rgba(11, 11, 11, 0.74);
         opacity: 1;
         color: aliceblue;
         font-size: 2rem;
         text-align: center;
         width: 20vw;
         height: 20vw;
-        position: relative;
-        top: 0;
         flex-basis: 300px;
-        border-radius: 20%;
 
     }
 
@@ -1691,9 +2315,9 @@ footer {
 
     footer {
         background-color: rgba(0, 0, 0, 0.92);
-
+        margin: 0 auto;
+        top: 25vw;
         position: relative;
-        top: 50vw;
 
 
 
@@ -1706,7 +2330,42 @@ footer {
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
+        padding: 2px;
 
+
+    }
+
+    .footer2 {
+        background-color: rgba(0, 0, 0, 0.92);
+        margin: 0 auto;
+        position: relative;
+        top: 34.8vw;
+
+    }
+
+    .footer3 {
+        background-color: rgba(0, 0, 0, 0.92);
+        margin: 0 auto;
+        top: 114vw;
+
+    }
+
+    .footer4 {
+        top: 84.7vw;
+
+    }
+
+    .footer5 {
+        top: 81vw;
+    }
+
+    .footer6 {
+        top: 157.9vw;
+
+    }
+
+    .footer7 {
+        top: 102.7vw;
     }
 
     .footerlogo {
@@ -1715,10 +2374,12 @@ footer {
         font-family: "cabin", sans-serif;
         font-size: 0.6rem;
         text-align: center;
-        height: 2vw;
         margin: 0 auto;
 
+
     }
+
+
 
     .portfoliotxtfooter {
         color: white;
@@ -1768,6 +2429,18 @@ footer {
         width: 20vw;
 
     }
+
+    main {
+        height: 812px;
+    }
+
+    .temaoverskrift {
+        font-size: 3rem;
+        text-transform: capitalize;
+        text-align: center;
+
+    }
+
 
 
 
